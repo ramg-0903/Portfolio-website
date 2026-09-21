@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
 
                 <span className='footer__copy'>
-                    &#169; Ram. All rigths reserved
+                    &#169; Ram. All rights reserved
                 </span>
             </div>
         </footer>

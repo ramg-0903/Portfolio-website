@@ -2,7 +2,6 @@ import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/about.jpg'
 import CV from '../../assets/cv.pdf'
-import Info from './Info'
 
 const About = () => {
     return (
@@ -14,10 +13,8 @@ const About = () => {
                 <img src={AboutImg} alt="" className="about__img" />
 
                 <div className="about__data">
-                    <Info />
-
                     <p className="about__description">
-                    Data Scientist specializing in ML, DL, and AI. I work with complex data, transforming it into actionable insights through thorough analysis
+                    Master's student in Data Analytics Engineering at Northeastern University, specializing in Machine Learning, Deep Learning, and MLOps. I enjoy turning complex data into actionable, production-ready systems.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">

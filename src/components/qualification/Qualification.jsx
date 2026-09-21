@@ -48,6 +48,21 @@ const Qualification = () => {
                     >
 
                         <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">MS in Data Analytics Engineering</h3>
+                                <span className="qualification__subtitle">Northeastern University, Boston</span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> 2025 - 2027 (Expected)
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
                             <div></div>
 
                             <div>
@@ -59,7 +74,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Bachelors of Technology (CS)</h3>
                                 <span className="qualification__subtitle">LNMIIT , Jaipur</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                                    <i className="uil uil-calendar-alt"></i> 2021 - 2025
                                 </div>
                             </div>
                         </div>
@@ -106,28 +121,11 @@ const Qualification = () => {
                     >
 
                         <div className="qualification__data">
-                            <div></div>
-
                             <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">CSI Data Science Intern</h3>
-                                <span className="qualification__subtitle">Celebal Technologies</span>
+                                <h3 className="qualification__title">Summer Research Intern</h3>
+                                <span className="qualification__subtitle">LUSIP - User Level Intervention In Hate Speech</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> May'2024 - Jul'2024
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">LUSIP - Summer Research Intern</h3>
-                                <span className="qualification__subtitle">User Level Intervention In Hate Speech</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> May'2023 - Aug'2023
+                                    <i className="uil uil-calendar-alt"></i> May'2023 - Jul'2023
                                 </div>
                             </div>
 

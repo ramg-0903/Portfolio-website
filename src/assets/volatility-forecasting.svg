@@ -1,0 +1,69 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1f27"/>
+      <stop offset="100%" stop-color="#11141a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+
+  <g stroke="#2b3040" stroke-width="1">
+    <line x1="80" y1="140" x2="1200" y2="140"/>
+    <line x1="80" y1="260" x2="1200" y2="260"/>
+    <line x1="80" y1="380" x2="1200" y2="380"/>
+    <line x1="80" y1="500" x2="1200" y2="500"/>
+    <line x1="80" y1="620" x2="1200" y2="620"/>
+  </g>
+
+  <!-- candlesticks -->
+  <g stroke-width="3">
+    <line x1="140" y1="300" x2="140" y2="420" stroke="#3fae63"/>
+    <rect x="126" y="330" width="28" height="60" fill="#3fae63"/>
+
+    <line x1="200" y1="360" x2="200" y2="470" stroke="#e5484d"/>
+    <rect x="186" y="380" width="28" height="55" fill="#e5484d"/>
+
+    <line x1="260" y1="260" x2="260" y2="400" stroke="#3fae63"/>
+    <rect x="246" y="300" width="28" height="70" fill="#3fae63"/>
+
+    <line x1="320" y1="330" x2="320" y2="430" stroke="#e5484d"/>
+    <rect x="306" y="345" width="28" height="50" fill="#e5484d"/>
+
+    <line x1="380" y1="220" x2="380" y2="360" stroke="#3fae63"/>
+    <rect x="366" y="260" width="28" height="70" fill="#3fae63"/>
+
+    <line x1="440" y1="280" x2="440" y2="390" stroke="#e5484d"/>
+    <rect x="426" y="300" width="28" height="55" fill="#e5484d"/>
+
+    <line x1="500" y1="180" x2="500" y2="320" stroke="#3fae63"/>
+    <rect x="486" y="210" width="28" height="75" fill="#3fae63"/>
+
+    <line x1="560" y1="240" x2="560" y2="350" stroke="#e5484d"/>
+    <rect x="546" y="260" width="28" height="55" fill="#e5484d"/>
+
+    <line x1="620" y1="150" x2="620" y2="290" stroke="#3fae63"/>
+    <rect x="606" y="180" width="28" height="75" fill="#3fae63"/>
+
+    <line x1="680" y1="200" x2="680" y2="330" stroke="#e5484d"/>
+    <rect x="666" y="220" width="28" height="60" fill="#e5484d"/>
+
+    <line x1="740" y1="120" x2="740" y2="260" stroke="#3fae63"/>
+    <rect x="726" y="150" width="28" height="75" fill="#3fae63"/>
+
+    <line x1="800" y1="170" x2="800" y2="300" stroke="#e5484d"/>
+    <rect x="786" y="190" width="28" height="60" fill="#e5484d"/>
+
+    <line x1="860" y1="100" x2="860" y2="230" stroke="#3fae63"/>
+    <rect x="846" y="130" width="28" height="70" fill="#3fae63"/>
+  </g>
+
+  <!-- forecast band + median line -->
+  <path d="M 900 190 C 980 210, 1040 170, 1120 230 L 1120 330 C 1040 270, 980 310, 900 290 Z"
+        fill="#5b8def" opacity="0.18"/>
+  <path d="M 900 240 C 980 260, 1040 220, 1120 280"
+        fill="none" stroke="#5b8def" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+
+  <text x="80" y="90" font-family="Arial, sans-serif" font-size="30" fill="#e8eaf0" font-weight="bold">Realized Volatility — 21D Forecast</text>
+  <text x="640" y="700" font-family="Arial, sans-serif" font-size="26" fill="#7c8299" text-anchor="middle">Volatility Forecasting &amp; Retirement-Outcome Engine</text>
+  <text x="640" y="736" font-family="Arial, sans-serif" font-size="18" fill="#4b5064" text-anchor="middle">Placeholder graphic — swap in a real screenshot anytime</text>
+</svg>

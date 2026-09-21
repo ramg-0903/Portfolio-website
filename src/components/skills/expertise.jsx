@@ -10,8 +10,8 @@ const expertise = () => {
                 <div className="exp_group">
                     <ul className="exp_list">
                         <li className="exp_item">Data Analytics</li>
-                        <li className="exp_item">Statistical Modeling</li>
                         <li className="exp_item">Machine Learning</li>
+                        <li className="exp_item">MLOps</li>
                     </ul>
                 </div>
 
@@ -19,7 +19,7 @@ const expertise = () => {
                     <ul className="exp_list">
                         <li className="exp_item">Deep Learning</li>
                         <li className="exp_item">NLP</li>
-                        <li className="exp_item">Computer Vision</li>
+                        <li className="exp_item">Recommender Systems</li>
                     </ul>
                 </div>
             </div>

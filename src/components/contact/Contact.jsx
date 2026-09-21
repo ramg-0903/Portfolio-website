@@ -44,9 +44,9 @@ const Contact = () => {
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">argr.0903@gmail.com</span>
+                            <span className="contact__card-data">alumalla.r@northeastern.edu</span>
 
-                            <a href="mailto:argr.0903@gmail.com" target="_blank" rel="noopener noreferrer" className="contact__button">
+                            <a href="mailto:alumalla.r@northeastern.edu" target="_blank" rel="noopener noreferrer" className="contact__button">
                                 Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
@@ -55,9 +55,9 @@ const Contact = () => {
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">+91-7075553502</span>
+                            <span className="contact__card-data">+1 636-438-8259</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=917075553502&text=Hello!" target="_blank" rel="noopener noreferrer" className="contact__button">
+                            <a href="https://api.whatsapp.com/send?phone=16364388259&text=Hello!" target="_blank" rel="noopener noreferrer" className="contact__button">
                                 Text me <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
@@ -70,6 +70,17 @@ const Contact = () => {
 
                             <a href="https://www.linkedin.com/in/ramgopal-reddy--/" target="_blank" rel="noopener noreferrer" className="contact__button">
                                 Connect <i className='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div className="contact__card">
+                            <i className="bx bxl-github contact__card-icon"></i>
+
+                            <h3 className="contact__card-title">GitHub</h3>
+                            <span className="contact__card-data">ramg-0903</span>
+
+                            <a href="https://github.com/ramg-0903" target="_blank" rel="noopener noreferrer" className="contact__button">
+                                Follow <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
                     </div>

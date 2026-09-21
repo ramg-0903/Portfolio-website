@@ -3,7 +3,7 @@ import React from 'react';
 const Frameworks = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Frameworks / Libraries</h3>
+            <h3 className="skills__title">Libraries</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -40,8 +40,8 @@ const Frameworks = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">TensorFlow</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Matplotlib</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
                     </div>
 
@@ -49,7 +49,7 @@ const Frameworks = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Flask</h3>
+                            <h3 className="skills__name">Transformers</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const Frameworks = () => {
 
                         <div>
                             <h3 className="skills__name">NLTK</h3>
-                            <span className="skills__level">Beginner</span>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                 </div>

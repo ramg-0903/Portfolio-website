@@ -57,11 +57,11 @@ const Data = () => {
             </h1>
 
             <h3 className="home__subtitle">
-                Tech Enthusiast
+                Data Analytics Engineering @ Northeastern
             </h3>
 
             <p className="home__description">
-            I'm a data specialist driven by a passion for AI and next gen-tech, dedicated to uncovering insights and innovation through data science.
+            I'm a Master's student in Data Analytics Engineering at Northeastern University, driven by a passion for AI, machine learning, and next-gen tech, dedicated to uncovering insights and innovation through data science.
             </p>
 
             <a href="#contact" className="button button--flex">
